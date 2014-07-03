@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:weightSum="1">
+    
+    <LinearLayout 
+        android:layout_weight="0.28"
+        android:orientation="horizontal" 
+        android:layout_height="0dp" 
+        android:layout_width="match_parent">
+        
+    <LinearLayout 
+        android:background="#7dbbada0"
+        android:layout_weight="1" 
+        android:layout_height="match_parent" 
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView 
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textStyle="bold"
+    		android:gravity="center"
+    		android:text="2048高登版"
+    		android:textSize="25sp"/>
+        <TextView 
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textStyle="italic"
+    		android:gravity="center"
+    		android:text="Powered by 瑋哥囝"
+    		android:textSize="15sp"/>
+         <TextView 
+            android:id="@+id/Current_max"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textStyle="italic"
+    		android:gravity="center"
+    		android:text="Current Tile: "
+    		android:textSize="15sp"/>
+         
+    </LinearLayout>
+    <LinearLayout 
+        android:background="#7dbbada0"
+        android:layout_weight="1" 
+        android:layout_height="match_parent" 
+        android:layout_width="match_parent"
+        android:orientation = "vertical"
+        android:weightSum="1">
+        
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView 
+                android:text="Score"
+                android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:textSize="17sp"
+    			android:gravity="center"
+    			android:textColor="#fefda0"/>
+            <TextView 
+                android:id="@+id/Score"
+                android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:textSize="17sp"
+    			android:gravity="center"
+    			android:textColor="#fefda0"/>
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView 
+                android:text="Best"
+                android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:textSize="17sp"
+    			android:gravity="center"
+    			android:textColor="#fefda0"/>
+            <TextView 
+                android:id="@+id/Best"
+                android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:textSize="17sp"
+    			android:gravity="center"
+    			android:textColor="#fefda0"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    </LinearLayout>
+    <GridLayout
+        android:layout_weight="0.72"
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:animateLayoutChanges="true"
+        android:background="#7dbbada0"
+        android:columnCount="4"
+        android:rowCount="4" >
+    </GridLayout>
+
+</LinearLayout>
