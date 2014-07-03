@@ -26,24 +26,25 @@ public final class R {
     public static final class drawable {
         public static final int chi=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int jiao=0x7f020002;
-        public static final int jing=0x7f020003;
-        public static final int ou=0x7f020004;
-        public static final int re=0x7f020005;
-        public static final int rounded_corner=0x7f020006;
-        public static final int shape=0x7f020007;
-        public static final int shuang=0x7f020008;
-        public static final int wa=0x7f020009;
-        public static final int wen=0x7f02000a;
-        public static final int xia=0x7f02000b;
-        public static final int xia2=0x7f02000c;
-        public static final int xian=0x7f02000d;
-        public static final int xiao=0x7f02000e;
-        public static final int xie=0x7f02000f;
-        public static final int yao=0x7f020010;
-        public static final int yi=0x7f020011;
-        public static final int ying=0x7f020012;
-        public static final int you=0x7f020013;
+        public static final int ic_launcher_old=0x7f020002;
+        public static final int jiao=0x7f020003;
+        public static final int jing=0x7f020004;
+        public static final int ou=0x7f020005;
+        public static final int re=0x7f020006;
+        public static final int rounded_corner=0x7f020007;
+        public static final int shape=0x7f020008;
+        public static final int shuang=0x7f020009;
+        public static final int wa=0x7f02000a;
+        public static final int wen=0x7f02000b;
+        public static final int xia=0x7f02000c;
+        public static final int xia2=0x7f02000d;
+        public static final int xian=0x7f02000e;
+        public static final int xiao=0x7f02000f;
+        public static final int xie=0x7f020010;
+        public static final int yao=0x7f020011;
+        public static final int yi=0x7f020012;
+        public static final int ying=0x7f020013;
+        public static final int you=0x7f020014;
     }
     public static final class id {
         public static final int Best=0x7f090002;
