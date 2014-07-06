@@ -106,16 +106,13 @@
     </LinearLayout>
     
     </LinearLayout>
-    <GridLayout
-        android:layout_weight="0.72"
-        android:id="@+id/GridLayout1"
-        android:layout_width="wrap_content"
+   
+	<com.game.core.GameView 
+    	android:layout_weight="0.72"
+    	android:id= "@+id/GameView"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:gravity="center"
-        android:animateLayoutChanges="true"
-        android:background="#7dbbada0"
-        android:columnCount="4"
-        android:rowCount="4" >
-    </GridLayout>
-
+         android:background="#7dbbada0">
+	</com.game.core.GameView>
 </LinearLayout>
