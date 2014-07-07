@@ -5,37 +5,26 @@ import java.util.HashMap;
 
 
 
-import android.os.Build;
-import android.os.Bundle;
-import android.os.Handler;
-import android.annotation.SuppressLint;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.Point;
+import android.os.Bundle;
 
-import android.util.SparseIntArray;
 import android.view.Menu;
 import android.view.View;
-import android.view.ViewGroup;
+
 import android.view.Window;
 import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.GridLayout;
+
 import android.widget.TextView;
 import android.widget.ImageView;
-import android.widget.Toast;
+
 import android.view.View.OnClickListener;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.TranslateAnimation;
 
 import com.game.core.GameView;
-import com.game.core.Grid;
-import com.game.core.OnSwipeListener;
-import com.game.core.Util;
+
 
 public class MainActivity extends Activity {
 	
