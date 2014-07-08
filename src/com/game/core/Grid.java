@@ -155,6 +155,8 @@ public class Grid {
 		this.occupied_index.clear();
 		this.should_move_index.clear();
 		this.should_move_val.clear();
+		this.randomTileIndex = Grid.INVALID_RANDOM_INDEX;
+		this.max = 0;
 	}
 	
 	protected boolean randomAvailCell(int val){

@@ -330,12 +330,15 @@ public class GameView extends FrameLayout {
     
     public void reset(){
     	grid.empty();
+    	this.animViewId.clear();
+		this.score = 0;
+		this.maxTileVal = -1;
+    	
     	for (int i=0;i<2;i++){
 			grid.randomAvailCell(2);
 		}
 		this.updateTileView();
-		this.animViewId.clear();
-		this.score = 0;
+		
 		mHandler.post(new Runnable(){
 
 			@Override
