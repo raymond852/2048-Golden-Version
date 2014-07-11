@@ -169,6 +169,7 @@ public class Grid {
 		if (!isOccupied(index)){
 			this.occupied_index.put(index, val);
 			this.randomTileIndex = index;
+			if (val>this.max)this.max = val;
 			return true;
 		}
 		
@@ -177,6 +178,7 @@ public class Grid {
 				if (!isOccupied(index-i)){
 					this.occupied_index.put(index-i, val);
 					this.randomTileIndex = index-i;
+					if (val>this.max)this.max = val;
 					return true;
 				}
 			}
@@ -184,6 +186,7 @@ public class Grid {
 				if (!isOccupied(index+i)){
 					this.occupied_index.put(index+i, val);
 					this.randomTileIndex = index+i;
+					if (val>this.max)this.max = val;
 					return true;
 				}
 			}
